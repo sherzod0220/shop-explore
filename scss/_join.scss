@@ -1,0 +1,35 @@
+.join{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 30px;
+    .join-title{
+        font-size: 28px;
+    }
+    .join-btn{
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+    .join-desin{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        padding: 100px 0;
+        background-color: #9AA8B1;
+        .desin-title{
+            color: white;
+            font-size: 28px;
+        }
+        .desin-info{
+            color: white;
+        }
+    }
+}

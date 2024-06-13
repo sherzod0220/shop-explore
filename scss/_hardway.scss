@@ -1,0 +1,34 @@
+.hardway{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 50px 30px;
+    align-items: center;
+    .hardway-title{
+        font-size: 28px;
+    }
+    .hardway-info{
+        font-size: 14px;
+        color: #A0A0A0;
+        width: 90%;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+@media(min-width:768px){
+    .hardway{
+        padding: 50px 70px;
+    }
+}
+@media(min-width:992px){
+    .hardway{
+        padding: 50px 200px;
+        .hardway-title{
+            font-size: 56px;
+        }
+    }
+}
